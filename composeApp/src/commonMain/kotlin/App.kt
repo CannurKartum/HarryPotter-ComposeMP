@@ -13,11 +13,12 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 
 import harrypottercmp.composeapp.generated.resources.Res
 import harrypottercmp.composeapp.generated.resources.compose_multiplatform
+import navigation.HarryPotterNavigator
 
 @Composable
 @Preview
 fun App() {
     MaterialTheme {
-
+        HarryPotterNavigator()
     }
 }
