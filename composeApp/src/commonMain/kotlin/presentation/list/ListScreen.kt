@@ -38,7 +38,7 @@ data object ListScreen : Screen {
                     ListContent(
                         list = (state as ListState.Content).characters,
                         onCharacterClick = { id ->
-                            //navigator.push(DetailScreen(id))
+                            navigator.push(DetailScreen(id))
                         }
                     )
                 }

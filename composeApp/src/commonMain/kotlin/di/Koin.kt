@@ -14,6 +14,7 @@ import org.koin.core.context.startKoin
 import org.koin.core.module.dsl.factoryOf
 import org.koin.dsl.module
 import presentation.list.ListScreenModel
+import presentation.detail.DetailScreenModel
 
 
 val dataModule = module {
@@ -41,7 +42,7 @@ val dataModule = module {
 
 val screenModelsModule = module {
     factoryOf(::ListScreenModel)
-   // factoryOf(::DetailScreenModel)
+    factoryOf(::DetailScreenModel)
 }
 
 fun initKoin(){
