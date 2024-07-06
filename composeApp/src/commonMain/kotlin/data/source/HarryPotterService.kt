@@ -21,8 +21,4 @@ class HarryPotterService(private val client:HttpClient) {
             parameter("id", id)
         }.body()
     }
-
-
-
-
 }

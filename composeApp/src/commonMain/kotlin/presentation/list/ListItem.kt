@@ -55,5 +55,4 @@ fun ListItem(
             fontWeight = FontWeight.Bold
         )
     }
-
 }
