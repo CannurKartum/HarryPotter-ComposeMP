@@ -22,19 +22,19 @@ such as Ktor for networking, Koin for dependency injection, Voyager for navigati
 # Project Structure
 
   - ComposeMain: Contains the shared Kotlin code for both Android and iOS platforms.
-        data: Network-related code (API service, data models).
-        di: Dependency injection modules.
-        navigation: Navigation implementation.
-        presentation: Views and ViewModels for managing UI-related data.
+     - data: Network-related code (API service, data models).
+     - di: Dependency injection modules.
+     - navigation: Navigation implementation.
+     - presentation: Views and ViewModels for managing UI-related data.
 
   - androidApp: Contains the Android-specific code.
-        MainActivity.kt: Entry point for the Android app.
-        UI Components: Compose-based UI components.
+    - MainActivity.kt: Entry point for the Android app.
+    - UI Components: Compose-based UI components.
 
   - iosApp: Contains the iOS-specific code.
-        AppDelegate.swift: Entry point for the iOS app.
-        UI Components: SwiftUI-based UI components.
+    - AppDelegate.swift: Entry point for the iOS app.
+    - UI Components: SwiftUI-based UI components.
 
  ## Acknowledgements     
  
-- Instructor: Caner Türe for providing the [course](https://www.youtube.com/watch?v=fWHdkwO-2S8)  and resources.      
+- Instructor: **Caner Türe** for providing the [course](https://www.youtube.com/watch?v=fWHdkwO-2S8)  and resources.      
